@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/contact_subj"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/main_theme_color" />
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contact_subj_hint"
+        android:textColor="@android:color/black" >
+
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_msg"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/main_theme_color" />
+
+    <EditText
+        android:id="@+id/emailBody"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:hint="@string/contact_msg_hint"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.isslam.husonmuslim"
+    android:versionCode="3"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="14" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name=".DBActivity"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Myactionbar" >
+        <activity
+            android:name="com.isslam.husonmuslim.SplashScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"
+                    />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity android:name="com.isslam.husonmuslim.ChaptersActivity" />
+      <activity android:name="com.isslam.husonmuslim.MainActivity" 
+          >
+      <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".SearchActivity" />
+       </activity>
+      
+      <activity android:name="com.isslam.husonmuslim.BookTabsActivity" />
+      <activity android:name="com.isslam.husonmuslim.FavouriteActivity" /> 
+       <activity android:name="com.isslam.husonmuslim.ExampleActivity" /> 
+       <activity android:name="com.isslam.husonmuslim.AboutUsActivity" /> 
+       <activity android:name="com.isslam.husonmuslim.SittingsActivity" /> 
+       <activity android:name="com.isslam.husonmuslim.HadithActivity" /> 
+     <activity android:name="com.isslam.husonmuslim.ContactusActivity" /> 
+    
+       <activity android:name="com.isslam.husonmuslim.SemiChapterActivity" /> 
+    
+       
+       
+       <activity android:name="com.isslam.husonmuslim.SearchActivity" >
+              <intent-filter>
+            <action android:name="android.intent.action.SEARCH" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+           <meta-data
+            android:name="android.app.searchable"
+            android:resource="@xml/searchable" /> 
+       </activity>
+       
+        
+         <receiver android:name=".WidgetProvider" >
+            <intent-filter>
+
+                <!-- This widget provider receives broadcast with following action name or simply onUpdate of AppWidgetProvider is called -->
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <!-- linking up xml file of appwidget-provider to AppWidgetProvider -->
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/watch_widget_provider" />
+        </receiver>
+            <receiver
+            android:name=".WidgetIntentReceiver"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.isslam.husonmuslim.UPDATE_WIDGET" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/watch_widget_provider" />
+        </receiver>
+
+              <receiver android:name="com.isslam.husonmuslim.AlarmReceiverActivity"
+            >
+          
+        </receiver>
+        <service
+            android:name=".WidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+      
+    </application>
+
+</manifest>

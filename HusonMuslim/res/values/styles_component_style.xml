@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="AutoCompleteTextViewcomponent_style" parent="android:Widget.Holo.AutoCompleteTextView">
+      <item name="android:dropDownSelector">@drawable/component_style_list_selector_holo_dark</item>
+	    <item name="android:background">@drawable/component_style_edit_text_holo_dark</item>
+  </style>
+
+  <style name="Buttoncomponent_style" parent="android:Widget.Holo.Button">
+	  <item name="android:background">@drawable/component_style_btn_default_holo_dark</item>
+  </style>
+
+  <style name="ImageButtoncomponent_style" parent="android:Widget.Holo.ImageButton">
+	  <item name="android:background">@drawable/component_style_btn_default_holo_dark</item>
+  </style>
+
+  <style name="Spinnercomponent_style" parent="android:Widget.Holo.Spinner">
+      <item name="android:background">@drawable/component_style_spinner_background_holo_dark</item>
+      <item name="android:dropDownSelector">@drawable/component_style_list_selector_holo_dark</item>
+   	<item name="android:textSize">32sp</item>
+        <item name="android:textColor">#FF0000</item>
+  </style>
+
+  <style name="Tabcomponent_style">
+      <item name="android:gravity">center_horizontal</item>
+      <item name="android:paddingLeft">16dip</item>
+      <item name="android:paddingRight">16dip</item>
+      <item name="android:background">@drawable/component_style_tab_indicator_holo</item>
+      <item name="android:layout_width">0dip</item>
+      <item name="android:layout_weight">1</item>
+      <item name="android:minWidth">80dip</item>
+  </style>
+
+  <style name="TabTextcomponent_style">
+	  <item name="android:textColor">#ffffff</item>
+      <item name="android:textSize">12sp</item>
+      <item name="android:textStyle">bold</item>
+      <!-- v14 <item name="android:textAllCaps">true</item> -->
+      <item name="android:ellipsize">marquee</item>
+      <item name="android:maxLines">2</item>
+      <item name="android:maxWidth">180dip</item>
+  </style>
+
+  <style name="ProgressBarcomponent_style" parent="android:Widget.Holo.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/component_style_progress_horizontal_holo_dark</item>
+      <item name="android:indeterminateDrawable">@drawable/component_style_progress_indeterminate_horizontal_holo_dark</item>
+  </style>
+
+  <style name="SeekBarcomponent_style" parent="android:Widget.Holo.SeekBar">
+      <item name="android:progressDrawable">@drawable/component_style_scrubber_progress_horizontal_holo_dark</item>
+      <item name="android:indeterminateDrawable">@drawable/component_style_scrubber_progress_horizontal_holo_dark</item>
+      <item name="android:thumb">@drawable/component_style_scrubber_control_selector_holo_dark</item>
+  </style>
+  
+  <style name="holoSpinner" parent="android:Widget.Holo.Spinner">
+      <item name="android:background">@drawable/component_style_spinner_background_holo_dark</item>
+      <item name="android:clickable">true</item>
+      <item name="android:textSize">16sp</item>
+      <item name="android:textColor">#959494</item>
+      <item name="android:textStyle">normal</item>
+      <item name="android:paddingTop">8dip</item>
+      <item name="android:paddingBottom">8dip</item>
+      <item name="android:paddingRight">12dip</item>
+      <item name="android:paddingLeft">12dip</item>
+    </style>
+    <style name="CustomDialog" parent="@android:style/Theme.Holo.Light.Dialog">
+    <item name="android:listChoiceIndicatorMultiple">@drawable/component_style_btn_radio_holo_dark</item>
+     <item name="android:listChoiceIndicatorSingle">@drawable/component_style_btn_radio_holo_dark</item>
+    <item name="android:background">#aaf</item>
+</style>
+
+</resources>

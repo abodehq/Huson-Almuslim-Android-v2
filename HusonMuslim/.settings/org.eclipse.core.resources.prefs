@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//src/com/isslam/ChaptersActivity.java=UTF-8
+encoding//src/com/isslam/SemiChapterActivity.java=UTF-8
+encoding//src/com/isslam/controllers/BookChaptersManager.java=UTF-8
+encoding//src/com/isslam/controllers/SemiChapterManager.java=UTF-8
+encoding//src/com/isslam/controllers/SharedPreferencesManager.java=UTF-8
+encoding//src/com/isslam/controllers/UndoManager.java=UTF-8

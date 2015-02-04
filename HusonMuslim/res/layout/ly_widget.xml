@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+	<!--  ListRow Left sied Thumbnail image -->
+	
+    
+	<!-- Title Of Song-->
+	<!-- Artist Name -->
+
+    <RelativeLayout
+        android:id="@+id/Relativecontent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/ImageView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:contentDescription="asdsd"
+            android:src="@drawable/ic_quote" />
+
+        <TextView
+            android:id="@+id/webkit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/ImageView03"
+            android:gravity="right"
+            android:text="kjhkh kjh kjhkhk kjhkh kj hkhk"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black" >
+
+           </TextView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

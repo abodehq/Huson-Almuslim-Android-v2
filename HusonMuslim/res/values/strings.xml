@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="btn_send_message">Send Message</string>
+    
+    <!-- Activity titles -->    
+    <string name="activity_location_found">Location Found</string>
+    
+    <!-- Action Bar action items -->
+    <string name="action_search">Sarch</string>
+    <string name="action_location_found">Location Found</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_contacts">Contacts</string>
+    <string name="action_help">Help</string>
+    <string name="action_check_updates">Check for Updates</string>
+    
+    <string name="contact_subj"> العنوان </string>
+          <string name="contact_msg"> الرسالة </string>
+           <string name="contact_msg_hint"> ادخل نص الرسالة </string>
+            <string name="contact_subj_hint"> ادخل عنوان الرسالة </string>
+        <string name="setting_contact"> إتصل بنا </string>
+    <!-- Search  -->
+    <string name="search_hint">بحث في حصن المسلم ..</string>
+    
+    <string name="hadithNum">الذكر #</string>
+    
+    <string name="action_settings">الإعدادات</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+   
+    
+     <string name="menu_main">الصفحة الرئيسية</string>
+      <string name="menu_read">قراءة</string>
+       <string name="menu_chapters">الكتب</string>
+        <string name="menu_semi">الأذكار</string>
+         <string name="menu_fav">المفضلة</string>
+          <string name="menu_notes">الملاحظات</string>
+           <string name="menu_share">شارك</string>
+             <string name="menu_settings">الإعدادات</string>
+               <string name="menu_exit">الخروج</string>
+      <string name="release_version">إصدار 1.0.0</string>  
+      
+       <string name="menu_semi_list">قائمة الأذكار</string>
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >الصفحة الرئيسية</item>
+        <item >قراءة</item>
+        <item > </item>
+        <item >الأذكار</item>
+        <item >المفضلة</item>
+        <item >الملاحظات</item>
+        <item >شارك</item>
+         <item >الإعدادات</item>
+          <item >الخروج</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_action_read</item>
+        <item>@drawable/ic_action_book</item>
+        <item>@drawable/ic_action_semi_chapter</item>
+        <item>@drawable/ic_action_favorite</item>
+        <item>@drawable/ic_action_note</item>
+        <item>@drawable/ic_action_share</item>
+        <item>@drawable/ic_action_settings</item>
+         <item>@drawable/exit</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+<string name="book_name">حصن المسلم</string>
+      <string name="exit">الخروج</string>
+    <string name="app_name">حصن المسلم</string>
+    <string name="app_exit">هل تريد الخروج من البرنامج</string>
+    <string name="app_exit_confirm">موافق</string>
+     <string name="app_exit_cancle">إلغاء</string>
+     <string name="fav">المفضلة</string>
+      <string name="chapters_activity_search">البحث في الكتب ...</string>
+       <string name="search_result_pre">نتائج البحث عن </string>
+      
+      <string name="semi_chapters_activity_search">البحث في الأذكار ...</string>
+         <string name="share_app_title"> EqraTech.co </string>
+     <string name="share_app_message"> قم يتحميل نسختك من برنامج حافظ قران الان </string>
+    <string name="chapter">  </string>
+     <string name="chapters">  </string>
+     <string name="semi_chapters"> الأذكار </string>
+     <string name="semi_chapter"> </string>
+     <string name="no"> إلغاء </string>
+     <string name="yes"> موافق </string>
+     
+     <string name="loading_text"> تحميل </string>
+      <string name="share_hadith"> مشاركة </string>
+      <string name="share_title"> شارك تطبيق حصن المسلم </string>
+      <string name="share_body"> حمل تطبيق حصن المسلم مجانا الان . فانه يتيح لك تصفح جميع أذكار حصن المسلم بشكل ممتع, وتدوين الملاحظات , وحفظ الأذكار بالمفضلة  !! </string>
+ <string name="fav_add"> تم اضافة الذكر الى المفضلة </string>
+ <string name="fav_del"> تم حذف الذكر من المفضلة </string>
+  <string name="note_del"> تم حذف الملاحظة بنجاح </string>
+  <string name="note_add"> تم اضافة الملاحظة بنجاح </string>
+  <string name="fav_title"> مسح </string>
+    <string name="note_title"> مسح </string>
+  <string name="fav_empty"> لا يوجد أذكار في المفضله !!  </string>
+    <string name="note_empty"> لا يوجد ملاحظات !!   </string>
+  <string name="fav_deletion"> هل أنت متأكد أنك تريد حذف الذكر من المفضلة ؟ </string>
+  <string name="note_deletion"> هل أنت متأكد أنك تريد حذف الملاحظة ؟ </string>
+   
+  <string name="fav_all_deletion"> هل أنت متأكد أنك تريد حذف المفضلة ؟ </string>
+  <string name="note_all_deletion"> هل أنت متأكد أنك تريد حذف جميع الملاحظات ؟  </string>
+  
+  <string name="fav_all_del"> تم حذف المفضلة بنجاح </string>
+   <string name="note_all_del"> تم حذف الملاحظات بنجاح </string>
+   
+   
+   <string name="note_sett_title">العنوان ( إختياري )</string>
+   <string name="note_sett_content">محتوى الملاحظة</string>
+    <string name="note_sett_color">لون الملاحظة</string>
+     <string name="note_sett_save">حفظ الملاحظة</string>
+     
+  <string name="copy_success"> تم نسخ الذكر بنجاح </string>
+  <string name="quick_action_read"> قراءة </string>
+  <string name="quick_action_copy"> نسخ </string>
+  <string name="quick_action_add_note"> أضف ملاحظة </string>
+  
+  <string name="color_picker_ok"> موافق </string>
+   <string name="color_picker_cancel"> إلغاء </string>
+   <string name="color_picker_title"> إختر اللون </string>
+   
+    <string name="setting_font_size"> حجم الخط </string>
+   <string name="all_settings"> كل الإعدادات </string>
+    <string name="low_light"> إضاءة خافتة </string>
+     <string name="hide_bg"> لون الخلفية شفاف </string>
+    <string name="hadith_bg_color"> لون خلفية الأذكار </string>
+     <string name="hadith_font_color"> لون خط الأذكار </string>
+    
+   
+     <string name="next_semi"> الذكر التالي </string>
+     <string name="prev_semi"> الذكر السابق </string>
+</resources>

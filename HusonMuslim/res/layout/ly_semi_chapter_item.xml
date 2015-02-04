@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="25dp"
+    android:background="@drawable/list_selector2"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+	<!--  ListRow Left sied Thumbnail image -->
+	
+    
+	<!-- Title Of Song-->
+	<!-- Artist Name -->
+
+    <TextView
+        android:id="@+id/sura_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="40dp"
+        android:text="Reciter Name"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/verses_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text=""
+         android:height="45dp"
+        android:textColor="#343434"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/image_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="asdsd"
+        android:src="@drawable/ic_action_semi_chapter_single" />
+
+</RelativeLayout>

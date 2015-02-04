@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/xml_content_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/nafigation_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <RelativeLayout
+            android:id="@+id/nafigation_container2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="false" >
+
+            <ImageView
+                android:id="@+id/semi_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_action_semi_chapter" />
+
+            <TextView
+                android:id="@+id/semi_chapter_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/semi_icon"
+                android:gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listViewWidget"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_share111"
+        android:layout_below="@+id/nafigation_container"
+  />
+
+<RelativeLayout
+    android:id="@+id/btn_share111"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@color/main_theme_color" >
+
+      <RelativeLayout
+          android:id="@+id/btn_delete"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:background="@drawable/submit_action_btn"
+          android:paddingBottom="5dp"
+          android:paddingTop="5dp" >
+
+          <ImageView
+              android:id="@+id/imageView1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerHorizontal="true"
+              android:src="@drawable/ic_action_shuffle" />
+
+      </RelativeLayout>
+  </RelativeLayout>
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="asd"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

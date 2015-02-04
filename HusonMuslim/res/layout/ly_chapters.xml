@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@drawable/main_bg"
+    android:orientation="vertical"   
+>
+
+ <ListView
+     android:id="@+id/chapters_list"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/chapters_Search"
+     android:divider="@color/divider_color"
+     android:dividerHeight="1dp"
+     android:listSelector="@drawable/list_selector_theme" />
+
+  <EditText
+      android:id="@+id/chapters_Search"
+      android:layout_width="fill_parent"
+      android:layout_height="50dp"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:ems="10"
+      android:cursorVisible="true"
+      android:gravity="center_vertical|right"
+      android:height="40dp"
+      android:hint="@string/chapters_activity_search"
+      android:textColor="@android:color/black"
+      android:color="#000" >
+  </EditText>
+  
+</RelativeLayout>

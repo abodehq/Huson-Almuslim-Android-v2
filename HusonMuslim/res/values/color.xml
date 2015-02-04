@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <color name="main_theme_color">#489ba1</color>
+     <color name="main_theme_color1">#ebe2b2</color>
+      <color name="main_theme_color_light">#CF5747</color>
+        <color name="divider_color">#dddddd</color>
+     
+     <color name="main_theme_bg_color">#fff</color>
+      <color name="sub_theme_bg_color">#e8e8e8</color>
+     <color name="sub_theme_text_color">#c78b0a</color>
+      <color name="sub_theme_text_color_op2">#676767</color>
+     
+     <color name="main_theme_text_color">#fff</color>
+    <color name="list_item_title">#E38461</color>
+    <color name="list_background">#fff</color>
+    <color name="list_background_pressed">#Eeeeee</color>
+     <color name="list_background_pressed2">#Eeeeee</color>
+    <color name="list_divider">#DAD8DB</color>
+    <color name="counter_text_bg">#E3DBD9</color>
+    <color name="counter_text_color">#fff</color>
+    
+    <color name="toast_text_color">#fff</color>
+    <color name="toast_bg_success_color">#ff3cb04f</color>
+     <color name="ly_settings_dark">#aaaaaa</color>
+       <color name="font_background_settings_divider">#cccccc</color>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="horizontal" >
+
+	<!--  ListRow Left sied Thumbnail image -->
+	
+    
+	<!-- Title Of Song-->
+	<!-- Artist Name -->
+
+    <ImageView
+        android:id="@+id/image_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="asdsd"
+        android:src="@drawable/ic_top_search" />
+
+    <RelativeLayout
+        android:id="@+id/nafigation_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/list_selector2"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/ImageReading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_action_read" />
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/ImageReading"
+            android:text="أكمل قراءة باب الايمان"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+         <RelativeLayout
+        android:id="@+id/Relativecontent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text_title"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/ImageView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:contentDescription="asdsd"
+            android:src="@drawable/ic_quote" />
+
+    
+ <TextView
+        android:id="@+id/webkit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     android:layout_margin="5dp"
+        android:layout_marginLeft="5dp"
+       android:layout_alignParentTop="true"
+             android:layout_toRightOf="@+id/ImageView03"
+     
+        />
+ 
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+    
+    
+   
+
+   
+
+</RelativeLayout>

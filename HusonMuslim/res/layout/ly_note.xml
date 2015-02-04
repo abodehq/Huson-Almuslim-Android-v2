@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical">
+
+
+ <ListView
+     android:id="@+id/list"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:layout_above="@+id/tablemenu"
+     android:layout_alignParentTop="true"
+     android:divider="#b5b5b5"
+     android:dividerHeight="1dp"
+     android:fastScrollEnabled="true"
+     android:listSelector="@drawable/list_selector" />
+ 
+ <TableLayout
+     android:id="@+id/tablemenu"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentTop="false"
+     android:background="@color/main_theme_color"
+     
+     android:stretchColumns="0,1,2" >
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:longClickable="false" >
+
+            <RelativeLayout
+                android:id="@+id/btn_m_refresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/footer_action_btn"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" >
+
+                <ImageView
+                    android:id="@+id/btn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_action_refresh" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/btn_m_deleteAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/footer_action_btn"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_action_discard" />
+            </RelativeLayout>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text_bg_color_ind"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/list_background_pressed2" >
+
+    <RelativeLayout
+        android:id="@+id/ly_font_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/text_title"
+            android:inputType="text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right"
+            android:hint="@string/note_sett_title"
+            android:lines="1"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/main_theme_color" />
+
+    </RelativeLayout>
+
+  
+
+    
+
+    <View
+        android:id="@+id/hr2"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/ly_font_size"
+        android:background="@color/font_background_settings_divider"
+        android:paddingTop="3dp" />
+
+    <RelativeLayout
+        android:id="@+id/ly_text_font_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hr2"
+        android:background="@drawable/list_selector3" >
+
+        <EditText
+            android:id="@+id/text_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="top|right"
+            android:hint="@string/note_sett_content"
+            android:inputType="textMultiLine"
+            android:minHeight="120dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/main_theme_color" >
+
+            <requestFocus />
+        </EditText>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/hr3"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/ly_text_font_color"
+        android:background="@color/font_background_settings_divider"
+        android:paddingTop="3dp" />
+
+    <RelativeLayout
+        android:id="@+id/ly_note_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/hr3"
+        android:background="@drawable/list_selector3" >
+
+        <TextView
+            android:id="@+id/Text_color_note_ind"
+            android:layout_width="10dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/black"
+            android:gravity="center_vertical|center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/Text_color_note_ind"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/note_sett_color"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/hr4"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/ly_note_color"
+        android:background="@color/font_background_settings_divider"
+        android:paddingTop="3dp" />
+
+ <RelativeLayout
+     android:id="@+id/ly_save_note"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentLeft="true"
+     android:layout_below="@id/hr4"
+     android:background="@drawable/list_selector3"
+     android:paddingBottom="10dp"
+     android:paddingTop="10dp" >
+
+        <TextView
+          
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/note_sett_save"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

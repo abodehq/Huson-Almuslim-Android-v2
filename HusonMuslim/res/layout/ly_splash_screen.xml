@@ -1,0 +1,180 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="@drawable/main_bg"
+    tools:context=".SplashScreenActivity" >
+
+    <RelativeLayout
+        android:id="@+id/splash_botom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/sub_theme_bg_color"
+        android:padding="5dp" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/company_url"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/company_logo"
+                android:text="is-slam.com"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/sub_theme_text_color_op2"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/company_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:contentDescription="Logo"
+                android:src="@drawable/company_logo" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="false"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:text="V1.0"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/sub_theme_text_color_op2"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/splash_botom"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/RelativeLayout01" >
+
+         <TextView
+             android:id="@+id/book_txt"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:layout_centerVertical="true"
+             android:gravity="center_horizontal|center_vertical"
+             android:text="@string/book_name"
+             android:textColor="@color/main_theme_color"
+             android:textSize="60sp"
+             android:textStyle="bold" />
+
+         <ImageView
+             android:id="@+id/imageView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/book_txt"
+             android:layout_centerHorizontal="true"
+             android:layout_marginTop="20dp"
+             android:gravity="center_vertical|center_horizontal"
+             android:src="@drawable/ic_communities" />
+
+         <TextView
+             android:id="@+id/TextLoadingFirst"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             android:layout_centerHorizontal="true"
+             android:paddingBottom="3dp"
+             android:paddingTop="3dp"
+             android:text="تحميل البرنامج لأول مرة"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textColor="@color/sub_theme_text_color"
+             android:textSize="16sp"
+             android:textStyle="bold"
+             android:visibility="invisible" />
+
+         
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/sub_theme_bg_color"
+        android:padding="5dp" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toLeftOf="@+id/ImageView01"
+                android:text="الاسلام"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/sub_theme_text_color" />
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:contentDescription="Logo"
+                android:src="@drawable/library_icon" />
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+          android:layout_centerVertical="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toLeftOf="@+id/TextView03"
+                android:text="طريقة حياة"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/sub_theme_text_color_op2" />
+
+        </RelativeLayout>
+        
+    </RelativeLayout>
+
+     <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dip"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/RelativeLayout01"
+         android:background="@drawable/drop_shadow" />
+       <View
+         android:layout_width="fill_parent"
+         android:layout_height="2dip"
+         android:layout_alignParentLeft="true"
+         android:layout_above="@+id/splash_botom"
+         android:background="@drawable/drop_shadow" />
+
+</RelativeLayout>
