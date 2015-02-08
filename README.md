@@ -11,6 +11,9 @@ You can use it free for Islamic Apps Only >>> ( FREE ISLAMIC APPS ONLY)
 
 DEMO : https://play.google.com/store/apps/details?id=com.isslam.husonmuslim
 
+Api >11
+SQLite Editor :http://sqlitebrowser.org
+
 ------------------------------------
 (Android Version)
 
